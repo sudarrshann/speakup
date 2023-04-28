@@ -6,11 +6,11 @@ import { useRouter } from 'next/router';
 
 const Hodhome = () => {
   const router = useRouter();
-  useEffect(() => {
-    if(!localStorage.getItem("hod-token")){
-      router.push("/Hod")
-    }
-  }, [])
+  // useEffect(() => {
+  //   if(!localStorage.getItem("hod-token")){
+  //     router.push("/Hod")
+  //   }
+  // }, [])
   return (
     <>
     <Head>

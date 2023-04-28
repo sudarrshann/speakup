@@ -7,11 +7,11 @@ import { useRouter } from 'next/router';
 const complain = () => {  
 const router = useRouter();
 
-  useEffect(() => {
-    if(!localStorage.getItem("student-token")){
-      router.push("/")
-    }
-  }, [])
+  // useEffect(() => {
+  //   if(!localStorage.getItem("student-token")){
+  //     router.push("/")
+  //   }
+  // }, [])
   
   return (
     <>
